@@ -139,8 +139,8 @@
 <link href="./css" rel="stylesheet" type="text/css">
     <title>Opening Up Open World Tracking</title>
     <meta property="og:title" content="Opening Up Open World Tracking">
-    <meta property="og:description" content="Liu, Zulfikar, Luiten. Opening Up Open World Tracking. In CVPR, 2022.">
-    <meta property="og:url" content="https://cv.snu.ac.kr/research/EOPSN/">
+    <meta property="og:description" content="Liu, Zulfikar etc. Opening Up Open World Tracking. In CVPR, 2022.">
+    <meta property="og:url" content="https://owt.github.io/">
   </head>
 
   <body data-new-gr-c-s-check-loaded="14.974.0">
@@ -154,11 +154,11 @@
             <td align="center" width="80px">
                 <center><span style="font-size:20px"><a href="https://www.vision.rwth-aachen.de/person/245/" target="_blank">Idil Esen Zulfikar</a><sup>1</sup></span></center></td>
             <td align="center" width="80px">
-                <center><span style="font-size:20px"><a href="https://www.vision.rwth-aachen.de/person/216/" target="_blank">Jonathon Luiten</a><sup>1</sup> </span></center></td>
+                <center><span style="font-size:20px"><a href="https://www.vision.rwth-aachen.de/person/216/" target="_blank">Jonathon Luiten</a><sup>1,2</sup> </span></center></td>
             <td align="center" width="80px">
                 <center><span style="font-size:20px"><a href="http://www.achaldave.com/" target="_blank">Achal Dave</a><sup>2</sup></span></center></td>
             <td align="center" width="80px">
-                <center><span style="font-size:20px"><a href="https://dvl.in.tum.de/team/osep/" target="_blank">Aljoša Ošep</a><sup>2</sup></span></center></td>
+                <center><span style="font-size:20px"><a href="https://dvl.in.tum.de/team/osep/" target="_blank">Aljoša Ošep</a><sup>2,3</sup></span></center></td>
                 <!-- <td align="center" width="180px">
                     <center><span style="font-size:24px"><a href="https://dvl.in.tum.de/team/osep/" target="_blank">Deva Ramanan</a><sup>&#8224</sup> </span></center></td> -->
           </tr><tr>
@@ -188,33 +188,25 @@
             </tr><tr>
 
         </tr></tbody></table>
-        <hr>
-        <!-- <table align="center" width="400px">
+        <table align="center" width="400px">
           <tbody><tr>
             <td align="center" width="150px">
-            <center><span style="font-size:24px"><a href="http://cvpr2021.thecvf.com/" target="_blank">CVPR 2021</a></span></center></td>
-          </tr><tr>
-            <td align="center" width="150px">
-                <center><span style="font-size:14px">* This work was done during an internship at Adobe Research</span></center>
-            </td>
-
-
-
-        </tr></tbody></table> -->
-        <center id="overview"><h1>Overview Video</h1></center>
-        <center>
-
-          <video height="480" controls>
-            <source src="https://drive.google.com/uc?export=view&id=14b2NKinTC1gBK9EFlZvGHlGlgKN3B7D4">
-            Your browser does not support the video tag.
-          </video>
-          <!-- <iframe src="https://drive.google.com/file/d/1hiNuDEUnlc7iZ8ts3Cwky1hA5QQxevXt/preview" width="640" height="480"></iframe> -->
-        </center>
-        <hr>
+            <center><span style="font-size:24px"><a href="https://cvpr2022.thecvf.com/" target="_blank">CVPR 2022</a></span></center></td>
+          </tr></tbody>
+        </table>
 
         <center id="abstract"><h1>Abstract</h1></center>
-        <center>
+        <table align="center" width="1000px">
+            <tbody><tr><td width="1000px">
+              <center><a href="https://drive.google.com/uc?export=view&id=1xWb6fE3RcY9r0jv7P82_7hCe5wzcAlnb">
+                <img src="https://drive.google.com/uc?export=view&id=1xWb6fE3RcY9r0jv7P82_7hCe5wzcAlnb" height="300px" ></a><br></center>
+                <!-- https://drive.google.com/file/d/1xWb6fE3RcY9r0jv7P82_7hCe5wzcAlnb/view?usp=sharing -->
+            </td></tr>
+            </tbody>
+        </table>
+        <br>
 
+        <center>
         <div style="text-align:justify;width:900px">
         In this paper, we propose and study Open-World Tracking (OWT). Open-world tracking goes beyond current multiobject tracking benchmarks and methods which focus on
         tracking object classes that belong to a predefined closedset of frequently observed object classes. In OWT, we relax this assumption: we may encounter objects at inference
@@ -235,15 +227,15 @@
         <br>
 
         <!-- <center id="overview"><h1>Network</h1></center> -->
-        <table align="center" width="1000px">
-            <tbody><tr><td width="1000px">
-              <center><a href="https://drive.google.com/uc?export=view&id=1ZbZLvtCKycM8svssfoCW3-9BPfDkLs-e">
-                <img src="https://drive.google.com/uc?export=view&id=1ZbZLvtCKycM8svssfoCW3-9BPfDkLs-e" width="600px" height="300px" ></a><br></center>
-            </td></tr>
-            </tbody>
-        </table>
-        <br>
+
+        <hr>
+        <center id="TAO-OW Benchmark"><h1>TAO-OW Benchmark</h1></center>
         <center>
+        <div id="unknown-wc", class=:column>
+            <img src="https://drive.google.com/uc?export=view&id=1GNkuUqxcAsW4UgERFC-frJtRA7M_kONe" height="300px">
+            <!-- https://drive.google.com/file/d/1GNkuUqxcAsW4UgERFC-frJtRA7M_kONe/view?usp=sharing -->
+        </div>
+        <br>
         <div style="text-align:justify; width:900px; font-size:18px">
               <b>TAO-OW Benchmark</b>. Class distribution of
               our TAO-OW benchmark (validation set), showing both the
@@ -252,11 +244,9 @@
               in an open-world. Note the y-axis is <b>log-scaled</b>.
         </div>
         </center>
+
         <br>
-        <hr>
 
-
-        <center id="TAO-OW Benchmark"><h1>TAO-OW Benchmark</h1></center>
         <table align="center" width="1000px">
             <tbody><tr><td width="800px">
               <center>
@@ -292,7 +282,7 @@
                   </div>
                 </a><br>
                 <div style="text-align:justify; width:900px; font-size:18px">
-                  Examples of known object categories (left) and unknown object categories (right).
+                  Examples of  <span style="color:blue;">known</span>  object categories (left) and <span style="color:red;">unknown</span> object categories (right).
                 </div><br>
               </center>
             </td></tr>
@@ -336,71 +326,35 @@
         <table align="center" width="1000px">
             <tbody><tr><td width="500px">
               <center><a href="">
-                <img src="https://drive.google.com/uc?export=view&id=192iHGwKdrkhj-gmhlpuzsr5bZB-gtaXs" height="200px">
-              </a><br></center>
+                <img src="https://drive.google.com/uc?export=view&id=1FlZOeiNVjqs9nbdNM9svteTsraODxqqK" height="300px">
+                <!-- https://drive.google.com/file/d/1FlZOeiNVjqs9nbdNM9svteTsraODxqqK/view?usp=sharing -->
+              </a><br><br></center>
               <center>
               <div style="text-align:justify;width:900px">
-                <b>Val-set results</b>. Results of our final Open-World
+                <b>TAO-OW val-set and TAO-OW test-set.</b> Results of our final Open-World
                 Tracking Baseline (OWTB) compared to previous SOTA
-                trackers on TAO-OW val. <span style="color:red;">*</span>: Non open-world (trained on
+                trackers on TAO-OW val-set and TAO-OW test-set. <span style="color:red;">*</span>: Non open-world (trained on
                 unknown classes), <span style="color:red;">&#8224</span>: contains overlapping results.
-              </div>
-              </center>
-
-              <center><a href="">
-                <img src="https://drive.google.com/uc?export=view&id=1frtqQwJKuUaPQ4DJEtkhnVpy_5yGl08Q" height="140px">
-              </a><br></center>
-              <center>
-              <div style="text-align:justify;width:900px">
-                <b>Test-set results</b>. Results of our OWTB on the
-                TAO-OW test set. Unknown classes are the same as those
-                present in the val set, while Unknown-Unknown classes are
-                further unknown classes only present in the test set.
-              </div>
-              </center>
-            </td></tr>
-          </tbody></table>
-        <br>
-
-        <center id="results0"><h2>OWTB Results on DAVIS and KITTI-MOTS</h2></center>
-        <table align="center" width="1000px">
-            <tbody><tr><td width="500px">
-              <center><a href="">
-                <img src="https://drive.google.com/uc?export=view&id=1b1JQdsU7iSoKvo0yjyZJGMyaVRJpfdaS" height="300px">
-              </a><br></center>
-              <center>
-              <div style="text-align:justify;width:900px">
-                Results of our OWTB on closed-world benchmarks
-                DAVIS Unsupervised (val) and KITTI-MOTS (test), compared to all previous published methods. *MOTSFusion
-                additionally uses stereo-depth information.
               </div>
               </center>
             </td></tr>
           </tbody></table>
         <br>
         <hr>
-
-
-
-
-        <!-- <center id="results1"><h1>Qualitative Results</h1></center>
-        <table align="center" width="1000px">
-            <tbody><tr><td width="1000px">
-              <center><a href="./qual.png"><img src="./qual.png" height="900px"></a><br></center>
-            </td></tr>
-          </tbody></table>
-          <br>
-          <center><h3><a href="./additional_quals">More Results</a></h3></center>
+        <center id="overview"><h1>Overview Video</h1></center>
+        <center>
+          <a href="https://drive.google.com/file/d/14b2NKinTC1gBK9EFlZvGHlGlgKN3B7D4/preview">
+            <iframe src="https://drive.google.com/file/d/14b2NKinTC1gBK9EFlZvGHlGlgKN3B7D4/preview" width="640" height="480" allow="autoplay"></iframe></a>
+          <!-- <video height="480" controls>
+            <source src="https://drive.google.com/uc?export=view&id=14b2NKinTC1gBK9EFlZvGHlGlgKN3B7D4">
+            Your browser does not support the video tag.
+          </video> -->
+          <!-- https://drive.google.com/file/d/14b2NKinTC1gBK9EFlZvGHlGlgKN3B7D4/view?usp=sharing -->
+          <!-- <iframe src="https://drive.google.com/file/d/14b2NKinTC1gBK9EFlZvGHlGlgKN3B7D4/preview" width="640" height="480" allow="autoplay"></iframe> -->
+        </center>
         <br>
-        <hr> -->
-        <!--
-        <center id="video"><h1>Video</h1></center>
-        <div style="text-align:justify;width:900px">
-            <p align="middle">
-                <iframe width="600px" height="438px" src="https://www.youtube.com/embed/UnDiINHRE30" frameborder="0" style="display:block;margin-left:250px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </p>
-        </div>
-        -->
+        <hr>
+
         <center id="sourceCode"><h1>Paper and Code</h1></center>
 
 
@@ -408,16 +362,16 @@
             <tbody><tr></tr>
           <tr>
             <td>
-        <a href="./architecture.png"><img class="paperpreview" src="https://drive.google.com/uc?export=view&id=1D_9DVgGBvcj9Ohh7GogwmmYQg4Hjkq_8" width="200px"></a>
+        <a href="https://drive.google.com/uc?export=view&id=1X5fwCoaax-mbu1xE6ahBH9dGUnXILeS1"><img class="paperpreview" src="https://drive.google.com/uc?export=view&id=1X5fwCoaax-mbu1xE6ahBH9dGUnXILeS1" width="200px"></a>
+        <!-- https://drive.google.com/file/d/1X5fwCoaax-mbu1xE6ahBH9dGUnXILeS1/view?usp=sharing -->
           </td>
           <td></td>
           <td width="700px"> <span style="font-size:20px">
               Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Aljoša Ošep, Deva Ramanan, Bastian Leibe, Laura Leal-Taixé. <br>
-              <a href="https://cv.snu.ac.kr/research/EOPSN/">Opening up Open-World Tracking</a> <br> <i>(Maybe put ICCV information here)</i>. 2021. <br>
-              [PDF][<a href="https://github.com/xxx">Code</a>]</span>
+              <a href="https://cv.snu.ac.kr/research/EOPSN/">Opening up Open-World Tracking</a> <br> <i>Proc. Computer Vision and Pattern Recognition (CVPR)</i>. 2022.<br>
+              [PDF][<a href="https://github.com/aljosaosep/owtb">Code</a>]</span>
         </td>
         </tr>
-
         </tbody></table>
       <br>
       <hr>
